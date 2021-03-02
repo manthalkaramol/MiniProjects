@@ -22,4 +22,4 @@ def home():
 def api_all():
     return jsonify(data)
 
-app.run()
+app.run(host='0.0.0.0')
